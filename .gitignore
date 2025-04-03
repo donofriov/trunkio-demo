@@ -1,0 +1,36 @@
+# Do not add personal files to this list. i.e. IDE/editor configs, project workspace directories
+# (.vscode/, .nova/, *sublime*, etc.). Add these to .git/info/exclude (local-only git ignores)
+# https://git-scm.com/docs/gitignore
+
+# Codecov
+.coverage
+coverage.xml
+test-results
+
+# Env Vars
+*.env
+.env.ori
+http-client.private.env.json
+
+# Python
+*.egg-info
+__pycache__
+.pytest_cache
+.mypy_cache
+.venv
+celerybeat-schedule
+profiler_output
+
+# Developer Only Files
+development/playbook.py
+
+# OS
+.DS_Store
+thumbs.db
+
+# Editors
+.vscode
+.idea
+
+# terraform
+.terraform/
